@@ -1,0 +1,67 @@
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #121D35;
+    position: relative;
+    
+
+
+}
+h1{
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+}
+
+p {
+    color: rgb(241, 237, 237);
+    margin-bottom: 1rem;
+}
+
+.form {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    padding: 4rem 2rem;
+    width: 320px;
+    gap: 0.3rem
+}
+
+input {
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    outline: #5e5e5e solid 2px;
+}
+input:focus{
+    outline: #08A7F1 solid 2px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    min-width: 100%;
+    margin-top: 1rem;
+    font-size: 30px;
+    border-radius:  0.5rem;
+    background-color:#08A7F1; 
+    transition: all .3s;
+}
+
+button:hover {
+    background-color: #3ac1ff; 
+    transition: all 0.8s;
+   
+}
+    .field {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.5rem;
+    }
